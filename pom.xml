@@ -10,6 +10,9 @@
     <modules>
         <module>e3commom</module>
         <module>e3manager</module>
+        <module>e3manager-web</module>
+        <module>e3-portal-web</module>
+        <module>e3-content</module>
     </modules>
     <packaging>pom</packaging>
     <!-- 集中定义依赖版本号 -->
@@ -37,7 +40,7 @@
         <jedis.version>2.7.2</jedis.version>
         <solrj.version>4.10.3</solrj.version>
         <dubbo.version>2.5.3</dubbo.version>
-        <zookeeper.version>3.4.7</zookeeper.version>
+        <zookeeper.version>3.4.6</zookeeper.version>
         <zkclient.version>0.1</zkclient.version>
         <activemq.version>5.11.2</activemq.version>
         <freemarker.version>2.3.23</freemarker.version>
@@ -257,15 +260,24 @@
                 </configuration>
             </plugin>
         </plugins>
-        <pluginManagement>
-            <plugins>
-                <!-- 配置Tomcat插件 -->
-                <plugin>
-                    <groupId>org.apache.tomcat.maven</groupId>
-                    <artifactId>tomcat7-maven-plugin</artifactId>
-                    <version>2.2</version>
-                </plugin>
-            </plugins>
-        </pluginManagement>
+
     </build>
+
+<repositories>
+    <repository>
+        <id>repo11</id>
+        <url>http://repo1.maven.org/maven2</url>
+    </repository>
+    <repository>
+        <id>aliyun</id>
+        <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+    </repository>
+    <repository>
+        <id>mvnrepo</id>
+        <url>http://mvnrepository.com/</url>
+    </repository>
+
+
+</repositories>
+
 </project>

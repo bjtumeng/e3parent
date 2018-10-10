@@ -6,7 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="e3commom" />
+        <module name="e3-commom" />
+        <module name="e3-content-interface" />
+        <module name="e3-content-service" />
+        <module name="e3-portal-web" />
         <module name="e3manager-dao" />
         <module name="e3manager-interface" />
         <module name="e3manager-pojo" />
@@ -14,15 +17,5 @@
         <module name="e3manager-web" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="e3commom" target="1.7" />
-      <module name="e3manager" target="1.7" />
-      <module name="e3manager-dao" target="1.7" />
-      <module name="e3manager-interface" target="1.7" />
-      <module name="e3manager-pojo" target="1.7" />
-      <module name="e3manager-service" target="1.7" />
-      <module name="e3manager-web" target="1.7" />
-      <module name="e3parent" target="1.7" />
-    </bytecodeTargetLevel>
   </component>
 </project>

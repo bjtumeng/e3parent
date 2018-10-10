@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/../e3parent" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../e3parent/e3commom" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../e3parent/e3manager" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../e3parent/e3manager/e3manager-dao" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../e3parent/e3manager/e3manager-interface" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../e3parent/e3manager/e3manager-pojo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../e3parent/e3manager/e3manager-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../e3parent/e3manager/e3manager-web" charset="UTF-8" />
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-content" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-content/e3-content-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-content/e3-content-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-portal-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3commom" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3manager-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3manager/e3manager-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3manager/e3manager-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3manager/e3manager-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3manager/e3manager-service" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
