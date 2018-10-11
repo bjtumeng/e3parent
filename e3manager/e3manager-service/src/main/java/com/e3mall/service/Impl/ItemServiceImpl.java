@@ -11,6 +11,8 @@ import com.e3mall.pojo.TbItemExample;
 import com.e3mall.service.ItemService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -30,6 +32,11 @@ import java.util.List;
  */
 @Service
 public class ItemServiceImpl  implements ItemService{
+    Logger log= LoggerFactory.getLogger(ItemServiceImpl.class);
+    public ItemServiceImpl() {
+        log.error("ItemServiceImpl-------------------------------------------------------------------");
+    }
+
     @Autowired
     private TbItemMapper mapper;
     @Autowired
