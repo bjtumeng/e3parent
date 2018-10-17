@@ -23,12 +23,10 @@ public class IndexController {
      @Value("${CONTENT_LUNBO_ID}")
      private Long cid;
      @RequestMapping("/index")
-    public String showIndex(Model model){
+     public String showIndex(Model model){
          List<TbContent> ad1List =  service.getContentListByCid(cid);
          model.addAttribute("ad1List",ad1List);
          System.out.println(model);
          return "index";
      }
-
-
 }
