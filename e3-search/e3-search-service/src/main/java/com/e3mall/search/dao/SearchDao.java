@@ -1,4 +1,4 @@
-package com.e3mall.search;
+package com.e3mall.search.dao;
 
 import com.e3mall.commom.pojo.SearchItem;
 import com.e3mall.commom.pojo.SearchResult;
