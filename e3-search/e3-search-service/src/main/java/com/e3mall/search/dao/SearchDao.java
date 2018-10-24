@@ -44,11 +44,14 @@ public class SearchDao {
           }else{
               title=(String) doc.get("item_title");
           }
+          Long item_price = (Long) doc.get("item_price");
+          item.setPrice(item_price);
+          item.setTitle(title);
           item.setId((String)doc.get("id"));
           item.setCategory_name((String) doc.get("item_category_name"));
           item.setImage((String) doc.get("item_image"));
-          item.setPrice((Long) doc.get("item_price"));
-          item.setTitle((String) doc.get("item_title"));
+
+
           item.setSell_point((String) doc.get("item_sell_point"));
           itemList.add(item);
       }

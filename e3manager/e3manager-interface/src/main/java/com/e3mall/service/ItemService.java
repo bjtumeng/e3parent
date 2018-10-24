@@ -3,6 +3,7 @@ package com.e3mall.service;
 import com.e3mall.commom.pojo.EasyUIDataGridResult;
 import com.e3mall.commom.utils.E3Result;
 import com.e3mall.pojo.TbItem;
+import com.e3mall.pojo.TbItemDesc;
 
 import java.text.ParseException;
 
@@ -56,4 +57,11 @@ public interface ItemService {
      * @throws Exception
      */
     E3Result reshelfTbItem(Long[] ids) throws Exception;
+
+    /**
+     * 根据商品id取商品的详细信息
+     * @param itemId
+     * @return
+     */
+    TbItemDesc getTbItemDescById(Long itemId);
 }

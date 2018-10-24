@@ -13,6 +13,7 @@ public class SearchItem implements Serializable {
     private String sell_point;
     private long price;
     private String image;
+    private String[] images;
     private String category_name;
 
     public String getId() {
@@ -59,6 +60,13 @@ public class SearchItem implements Serializable {
         return category_name;
     }
 
+    public String[] getImages() {
+        if(image!=null&!"".equals(image)){
+            String[] strings = image.split(",");
+            return strings;
+        }
+        return null;
+    }
     public void setCategory_name(String category_name) {
         this.category_name = category_name;
     }
