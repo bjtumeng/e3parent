@@ -23,13 +23,11 @@
        <#else>
              <tr bgcolor="green">
        </#if>
-
                <td>${student_index}</td>
                <td>${student.id}</td>
                <td>${student.name}</td>
                <td>${student.age}</td>
                <td>${student.address}</td>
-           </tr>
        </#list>
    </table>
    <br>

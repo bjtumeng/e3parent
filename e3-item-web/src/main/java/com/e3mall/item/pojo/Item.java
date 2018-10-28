@@ -23,7 +23,7 @@ public class Item extends TbItem {
     }
     public String[] getImages(){
         String image = this.getImage();
-        if (image!=null&"".equals(image)){
+        if (image!=null&&!"".equals(image)){
             String[] strings = image.split(",");
             return strings;
         }else{

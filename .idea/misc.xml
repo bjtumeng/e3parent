@@ -7,6 +7,8 @@
     <file type="web" url="file://$PROJECT_DIR$/e3-portal-web" />
     <file type="web" url="file://$PROJECT_DIR$/e3-search-web" />
     <file type="web" url="file://$PROJECT_DIR$/e3-search/e3-search-service" />
+    <file type="web" url="file://$PROJECT_DIR$/e3-sso-web" />
+    <file type="web" url="file://$PROJECT_DIR$/e3-sso/e3-sso-service" />
     <file type="web" url="file://$PROJECT_DIR$/e3manager-web" />
     <file type="web" url="file://$PROJECT_DIR$/e3manager/e3manager-service" />
   </component>
