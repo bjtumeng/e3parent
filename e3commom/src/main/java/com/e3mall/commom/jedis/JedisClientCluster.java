@@ -3,6 +3,8 @@ package com.e3mall.commom.jedis;
 
 import redis.clients.jedis.JedisCluster;
 
+import java.util.List;
+
 public class JedisClientCluster implements JedisClient {
 
 	private JedisCluster jedisCluster;
@@ -58,6 +60,11 @@ public class JedisClientCluster implements JedisClient {
 	@Override
 	public Long hdel(String key, String... field) {
 		return jedisCluster.hdel(key, field);
+	}
+
+	@Override
+	public List<String> hvals(String key) {
+		return jedisCluster.hvals(key);
 	}
 
 }
