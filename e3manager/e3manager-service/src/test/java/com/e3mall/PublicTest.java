@@ -10,12 +10,12 @@ import org.springframework.web.context.support.XmlWebApplicationContext;
  * @Description:
  * @date 2018/10/9 21:18
  */
-public class PublicTest {
-    @Test
-    public void publicService() throws Exception{
-        ApplicationContext applicationContext=new ClassPathXmlApplicationContext("classpath:/spring/applicationContext-*.xml");
-        while(true){
-            Thread.sleep(1000);
-        }
-    }
-}
+//public class PublicTest {
+//    @Test
+//    public void publicService() throws Exception{
+//        ApplicationContext applicationContext=new ClassPathXmlApplicationContext("classpath:/spring/applicationContext-*.xml");
+//        while(true){
+//            Thread.sleep(1000);
+//        }
+//    }
+//}

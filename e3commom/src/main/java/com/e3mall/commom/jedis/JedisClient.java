@@ -14,4 +14,5 @@ public interface JedisClient {
 	String hget(String key, String field);
 	Long hdel(String key, String... field);
 	List<String> hvals(String key);
+	Long del(String key);
 }
